@@ -14,24 +14,30 @@
             <button id="addRowBtn" class="add-row">أضف المادة والنقاط والمعامل</button>
         </div>
         
-        <table class="grade-table">
-            <thead>
-                <tr>
-                    <th>اسم المادة</th>
-                    <th>النقطة 1</th>
-                    <th>النقطة 2</th>
-                    <th>النقطة 3</th>
-                    <th>النقطة 4</th>
-                    <th>النقطة 5</th>
-                    <th>المعامل</th>
-                    <th>المجموع</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody id="gradesTableBody">
-                <!-- Rows will be added here -->
-            </tbody>
-        </table>
+        <div class="table-info" style="margin-bottom: 15px; text-align: right; font-size: 1rem; color: #333;">
+            <span>⬇️ الجدول التالي يتبع لإدخال المواد والنقاط والمعاملات الخاصة بك ⬇️</span>
+        </div>
+        <div class="table-wrapper">
+    <table class="grade-table">
+        <thead>
+            <tr>
+                <th>اسم المادة</th>
+                <th>النقطة 1</th>
+                <th>النقطة 2</th>
+                <th>النقطة 3</th>
+                <th>النقطة 4</th>
+                <th>النقطة 5</th>
+                <th>المعامل</th>
+                <th>المجموع</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="gradesTableBody">
+            <!-- Rows will be added here -->
+        </tbody>
+    </table>
+</div>
+
            <div class="controls">
             <button id="calculateBtn">اضغط هنا للحصول على النتيجة</button>
         </div>
@@ -43,6 +49,9 @@
             </div>
         </div>
     </div>
+    <footer style="text-align:center; margin-top: 30px; padding: 15px 0; background: #f1f1f1; font-size: 1rem;">
+        &copy; 2024 Aziz Aabbour. Tous droits réservés.
+    </footer>
     <script src="./script.js"></script>
 </body>
 </html>
